@@ -1,0 +1,17 @@
+date,description,amount,category
+2026-01-03,Woolworths,84.50,Groceries
+2026-01-04,Uber,23.20,Transport
+2026-01-05,Netflix,17.99,Entertainment
+2026-01-06,McDonalds,15.50,Food
+2026-01-08,Coles,72.40,Groceries
+2026-01-10,Uber Eats,32.80,Food
+2026-01-12,JB Hi-Fi,249.00,Electronics
+2026-01-15,Opal,50.00,Transport
+2026-02-02,Woolworths,105.30,Groceries
+2026-02-05,Uber Eats,45.80,Food
+2026-02-10,Netflix,17.99,Entertainment
+2026-02-15,JB Hi-Fi,482.00,Electronics
+2026-03-01,Woolworths,120.50,Groceries
+2026-03-03,Uber Eats,67.20,Food
+2026-03-05,Uber,31.40,Transport
+2026-03-08,Coles,95.60,Groceries
