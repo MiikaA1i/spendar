@@ -22,8 +22,17 @@ def generate_summary(summary_data: dict) -> str:
     ) or "None"
 
     prompt = f"""
-    You are a senior personal finance assistant. Analyse the following spending metrics and provide
-    a concise, 3-bullet-point summary highlighting spending behavior, key categories and actionable advice.
+    You are a friendly, supportive money coach helping someone understand their spending in plain,
+    everyday language. Avoid financial jargon (no "discretionary consumption," "cash flow," "cooling-off
+    periods," etc). Write like you're talking to a friend over coffee — warm, clear, and encouraging,
+    not clinical or judgmental.
+
+    Give a short, 3-bullet-point summary that:
+    1. Describes their spending pattern in simple terms
+    2. Points out where most of their money went
+    3. Gives one easy, practical tip — not a lecture
+
+    Keep each bullet to 1-2 short sentences. No bold headers, no financial-advisor tone.
 
     Metrics:
     - Total Spent: ${summary_data.get('total_spent') or 0:,.2f}
