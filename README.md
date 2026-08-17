@@ -1,4 +1,6 @@
-# 💸 Spendar
+<div align="center">
+
+# 💸 Spendar 💸 
 
 ### Your spending, actually explained.
 
@@ -8,17 +10,13 @@ Spendar takes a CSV of transactions and turns raw financial data into clear, use
 
 All from your terminal. In seconds.
 
-<p align="center">
-  <img src="docs/demo.gif" alt="Spendar demo" width="800">
-</p>
+<img src="spendar_demo.gif" alt="Spendar demo" width="800"> </br>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square&logo=python&logoColor=white">
-  <img src="https://img.shields.io/badge/pandas-data%20analysis-150458?style=flat-square&logo=pandas&logoColor=white">
-  <img src="https://img.shields.io/badge/Typer-CLI-000000?style=flat-square">
-  <img src="https://img.shields.io/badge/Gemini-AI-8E75B2?style=flat-square">
-  <img src="https://img.shields.io/badge/pytest-tested-0A9EDC?style=flat-square&logo=pytest&logoColor=white">
-</p>
+<img src="https://img.shields.io/badge/Python-3.x-3776AB?style=flat-square&logo=python&logoColor=white">
+<img src="https://img.shields.io/badge/pandas-data%20analysis-150458?style=flat-square&logo=pandas&logoColor=white">
+<img src="https://img.shields.io/badge/Typer-CLI-000000?style=flat-square">
+<img src="https://img.shields.io/badge/Gemini-AI-8E75B2?style=flat-square">
+<img src="https://img.shields.io/badge/pytest-tested-0A9EDC?style=flat-square&logo=pytest&logoColor=white">
 
 ---
 
@@ -27,7 +25,7 @@ All from your terminal. In seconds.
 Spendar combines traditional data analysis with an optional AI layer to turn transaction data into something that's actually easy to understand.
 
 |    | Feature                 | What it does                                                    |
-| -- | ----------------------- | --------------------------------------------------------------- |
+| -- | ------------------------ | ----------------------------------------------------------------- |
 | 📊 | **Spending metrics**    | Total spent, transaction count, and average transaction         |
 | 📂 | **Category breakdown**  | See exactly where your money is going                           |
 | 📅 | **Monthly trends**      | Compare spending month-over-month                               |
@@ -42,19 +40,13 @@ Spendar combines traditional data analysis with an optional AI layer to turn tra
 
 Spendar started as a sandbox.
 
-I'm building **[Paydar](https://github.com/MiikaA1i/paydar)**, a full-stack personal finance application and I wanted to figure out how AI-generated financial insights should actually work **before** wiring them into a larger, more complex codebase.
+I'm building **[Paydar](https://github.com/MiikaA1i/paydar)**, a full-stack personal finance application, and I wanted to figure out how AI-generated financial insights should actually work **before** wiring them into a larger, more complex codebase.
 
 Rather than experimenting directly inside Paydar, I built something smaller.
 
 Spendar became my testbed for:
 
-* 🧠 Prompt design
-* 🔌 LLM API integration
-* 🛡️ Error handling
-* 📊 Real-world data analysis
-* 🐼 Working with pandas
-* 🖥️ Building a clean CLI with Typer
-* 🤖 Understanding where AI genuinely adds value
+🧠 Prompt design · 🔌 LLM API integration · 🛡️ Error handling · 📊 Real-world data analysis · 🐼 Working with pandas · 🖥️ Building a clean CLI with Typer · 🤖 Understanding where AI genuinely adds value
 
 The idea was simple:
 
@@ -173,11 +165,7 @@ Spendar calculates the underlying metrics locally, while Gemini is used as an ad
 
 That separation makes the application:
 
-* Faster when AI isn't needed
-* More predictable
-* Easier to test
-* More useful without an API key
-* Safer to experiment with
+Faster when AI isn't needed · More predictable · Easier to test · More useful without an API key · Safer to experiment with
 
 ---
 
@@ -195,7 +183,7 @@ date,amount,category,description
 ### Required columns
 
 | Column        | Description             |
-| ------------- | ----------------------- |
+| ------------- | ------------------------ |
 | `date`        | Transaction date        |
 | `amount`      | Transaction amount      |
 | `category`    | Spending category       |
@@ -219,17 +207,14 @@ pytest tests/ -v
 
 Current coverage includes:
 
-* CSV loading
-* Core spending metrics
-* Category calculations
-* Anomaly detection
+CSV loading · Core spending metrics · Category calculations · Anomaly detection
 
 ---
 
 ## 🛠️ Tech stack
 
 | Technology               | Purpose                           |
-| ------------------------ | --------------------------------- |
+| ------------------------- | ----------------------------------- |
 | 🐍 **Python**            | Application logic                 |
 | 🐼 **pandas**            | Data analysis and transformations |
 | ⚡ **Typer**              | Command-line interface            |
@@ -262,30 +247,13 @@ __pycache__/
 
 ## 🗺️ Roadmap
 
-### 📈 Analysis
+**📈 Analysis** — More advanced anomaly detection · Custom spending thresholds · Improved trend analysis · Multiple currency support
 
-* [ ] More advanced anomaly detection
-* [ ] Custom spending thresholds
-* [ ] Improved trend analysis
-* [ ] Multiple currency support
+**💰 Finance** — Budget tracking · Savings goals · Recurring transaction detection
 
-### 💰 Finance
+**📤 Export** — PDF reports · CSV reports · JSON output
 
-* [ ] Budget tracking
-* [ ] Savings goals
-* [ ] Recurring transaction detection
-
-### 📤 Export
-
-* [ ] PDF reports
-* [ ] CSV reports
-* [ ] JSON output
-
-### 🌐 Future
-
-* [ ] Web dashboard companion
-* [ ] Deeper AI insights
-* [ ] Integration with Paydar
+**🌐 Future** — Web dashboard companion · Deeper AI insights · Integration with Paydar
 
 ---
 
@@ -350,11 +318,12 @@ Spendar gave me a low-risk environment to experiment, break things, iterate, and
 
 ---
 
-##  Built by MIIKA (ꈍᴗꈍ)♡
+##⋆. 𐙚˚࿔ Built by Miika 𝜗𝜚˚⋆
+
 [GitHub](https://github.com/MiikaA1i) · [LinkedIn](https://linkedin.com/in/malaika-ali-183229298)
 
 ---
 
-<p align="center">
-  Built with 🐍 Python, 📊 pandas & 🤖 curiosity.
-</p>
+Built with 🐍 Python, 📊 pandas & 🤖 curiosity.
+
+</div>
